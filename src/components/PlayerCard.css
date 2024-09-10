@@ -7,7 +7,7 @@
   padding: 2rem; /* Increased padding */
   text-align: center;
   transition: box-shadow 0.3s, border 0.3s;
-  width: 400px; /* Larger card width */
+  max-width: 400px; /* Larger card width */
   margin: 30px auto; /* Center card with margin auto */
   display: flex;
   flex-direction: column;
@@ -23,7 +23,8 @@
 }
 
 .player-image {
-  width: 300px; /* Larger squared image size */
+  width: 100%; /* Larger squared image size */
+  max-width: 300px; /* Maximum image width */
   height: 300px; /* Larger squared image size */
   border-radius: 12px; /* Slightly rounded corners for the image */
   object-fit: cover; /* Ensure image covers the square */
@@ -47,4 +48,12 @@
   font-size: 1.375rem; /* Larger font size for stats */
   color: #555;
   margin-top: 1.5rem; /* Increased margin for spacing */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .player-card {
+    max-width: 90%; /* Take up 90% of the screen width on mobile */
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
 }

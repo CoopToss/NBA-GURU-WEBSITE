@@ -27,10 +27,6 @@ Welcome to the NBA Stats & Player Profiles Website! This web application showcas
 ### Testing
 - **Jest & React Testing Library**: For unit and integration tests across the components.
 
-## Project Structure
-
-client/ ├── public/ ├── src/ │ ├── components/ │ │ ├── Navbar.js │ │ ├── PlayerCard.js │ │ └── PlayerList.js │ ├── pages/ │ │ ├── Home.js │ │ └── PlayerProfile.js │ ├── App.js │ └── supabaseClient.js ├── package.json └── README.md 
-
 ### Key Components
 - **PlayerCard.js**: Displays player details like image, rank, and stats in a trading card-like layout.
 - **Home.js**: Main page listing all top 100 NBA players, integrated with `PlayerCard`.

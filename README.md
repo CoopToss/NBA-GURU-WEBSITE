@@ -9,7 +9,7 @@ Welcome to the NBA Stats & Player Profiles Website! This web application showcas
   - Personal details (name, team, position)
   - Detailed biography
   - Season stats (Points per game, Assists per game, Rebounds per game)
-  - Links to social media and recent highlights
+  - Links to stats, social media and recent highlights
 - **Responsive Design**: The app is fully responsive and works seamlessly on mobile, tablet, and desktop.
 - **Cool Sports-Themed Styling**: Using custom fonts like 'Orbitron' and unique CSS, the site replicates the feel of a sports trading card.
 

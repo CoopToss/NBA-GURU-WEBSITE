@@ -44,6 +44,7 @@ Welcome to the NBA Stats & Player Profiles Website! This web application showcas
 Team Stats: Expand the app to include team-based stats.
 User Authentication: Allow users to sign up and customize their player watchlist.
 Live Updates: Fetch real-time stats for ongoing games.
+The intention for the website as of now, is to keep it to a rankings/stats website. The intended sole purpose of this website is for it to show off rankings and stats of players in the NBA in a more personable manner. The implementations of the team stats, user profiles, and live updates will be made in due time.
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 

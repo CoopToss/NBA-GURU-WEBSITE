@@ -22,7 +22,6 @@ Welcome to the NBA Stats & Player Profiles Website! This web application showcas
 
 ### Backend
 - **Node.js & Express**: Backend API for player data and top 100 players list.
-- **MongoDB**: Database for managing player data.
   
 ### Testing
 - **Jest & React Testing Library**: For unit and integration tests across the components.
